@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+   <header id="header">
+  <div class="header-container">
+
+    <div id="header-top">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="../project/Images/logo.png" alt="Image not found">
+      </div>
+
+      <!-- Search -->
+      <div class="search-section">
+        <select>
+          <option selected>Category</option>
+          <option>Fast Food</option>
+          <option>Dairy Products</option>
+        </select>
+        <input type="text" placeholder="Search Products..." />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <!-- Icons -->
+      <div class="icon-section">
+        <div class="icon-box">
+          <i class="fa-regular fa-user"></i>
+          <span>Account</span>
+          <strong>LOGIN</strong>
+        </div>
+        <div class="icon-box">
+          <i class="fa-regular fa-heart"></i>
+          <span>Wishlist</span>
+          <strong>3–ITEMS</strong>
+        </div>
+        <div class="icon-box">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>Cart</span>
+          <strong>3–ITEMS</strong>
+        </div>
+      </div>
+    </div>
+
+    <div id="header-bottom">
+      <div class="menu-icon">
+        <i class="fas fa-th-large"></i>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="location">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>PATNA, IN</span>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+
+  </div>
+</header>
+
+<!-- MOBILE HEADER (FOR SCREEN < 1000px) -->
+<div class="mobile-header">
+  <div class="mobile-top">
+    <i class="fas fa-th-large"></i>
+    <div class="mobile-icons">
+      <div class="icon"><i class="fas fa-user"></i></div>
+      <div class="icon badge"><i class="fas fa-heart"></i><span>3</span></div>
+      <div class="icon badge"><i class="fas fa-shopping-bag"></i><span>3</span></div>
+    </div>
+  </div>
+
+  <div class="mobile-bottom">
+    <img src="../project/Images/logo.png" class="mobile-logo" alt="Logo">
+    <i class="fas fa-bars" id="mobileMenuToggle"></i>
+  </div>
+</div>
+
+<!-- Mobile Slide Menu -->
+<div class="mobile-slide-menu" id="mobileSlideMenu">
+  <div class="mobile-search">
+    <input type="text" placeholder="Search Products..." />
+    <i class="fas fa-search"></i>
+  </div>
+  <nav class="mobile-nav-links">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</div>
+    <main>
+        <section class="page-header">
+            <div class="page-title">
+                <h3>Contact Us</h3>
+            </div>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>&gt;</span>
+                <span class="current">Contact Page</span>
+            </div>
+        </section>
+
+    <section id="get-in-touch">
+        <div id="get-in-touch-content">
+            <h4>Get In <span>Touch</span></h4>
+            <p>Please select a topic below related to you inquiry. If you don't fint what you need, fill out our contact form.</p>
+        </div>
+    </section>
+    <section id="map-form">
+        <div id="get-in-touch-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.008669404878!2d73.87183727544604!3d18.528510368931176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c05916a244b1%3A0x429e4d0f8ccc2a82!2sPune%20Station!5e0!3m2!1sen!2sin!4v1750090644846!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="get-in-touch-form">
+            <form action="">
+                <input type="text" name="name" placeholder="Name"><br>
+                <input type="text" name="email" placeholder="Email"><br>
+                <input type="text" name="phone" placeholder="Phone"><br>
+                <textarea name="message" id="">message</textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+    </section>
+    <section id="contacts">
+        <div class="container">
+        <div class="box">
+            <div class="content">
+                <div class="icon">
+                    <i class="fa fa-map-marker" area-hidden="true"></i>
+                </div>
+                <h4>Adress</h4>
+                <h3>Shivajinagar, Pune-411023 ,India</h3>
+            </div>
+        </div>
+         <div class="box">
+            <div class="content">
+                <div class="icon">
+                    <i class="fa fa-phone" area-hidden="true"></i>
+                </div>
+                <h4>Mobile</h4>
+                <h3>+91-8329476510</h3>
+            </div>
+        </div>
+         <div class="box">
+            <div class="content">
+                <div class="icon">
+                    <i class="fa fa-envelope" area-hidden="true"></i>
+                </div>
+                <h4>Email</h4>
+                <h3>yogesh@gmail.com</h3>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    </main>
+     <footer id="footer">
+                <div class="footer-part">
+                    <img id="footer-logo" src="Images/footer-logo.png" alt="Image not found">
+                    <h3>Masterkart is the biggest market of grocery products. Get your daily needs from our store.</h3>
+                    <div id="download-on-images">
+                        <img src="Images/android.png" alt="Image not found">
+                        <img src="Images/apple.png" alt="Image not found">
+                    </div>
+                </div>
+                <div class="footer-part">
+                    <h4 class="footer-part-heading">CATEGORY</h4>
+                    <ul type="none">
+                        <li>Dairy & Milk</li>
+                        <li>Snack & Spice</li>
+                        <li>Fast Food</li>
+                        <li>Juice & Drinks</li>
+                        <li>Bakery</li>
+                        <li>Seafood</li>
+                    </ul>
+                </div>
+                <div class="footer-part">
+                    <h4 class="footer-part-heading">COMPANY</h4>
+                    <ul type="none">
+                        <li>About us</li>
+                        <li>Delivery</li>
+                        <li>Legal Notice</li>
+                        <li>Terms & conditions</li>
+                        <li>Secure payment</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+                <div class="footer-part">
+                    <h4 class="footer-part-heading">ACCOUNT</h4>
+                    <ul type="none">
+                        <li>Sign In</li>
+                        <li>View Cart</li>
+                        <li>Return Policy</li>
+                        <li>Become a Vendor</li>
+                        <li>Affiliate Program</li>
+                        <li>Payments</li>
+                    </ul>
+                </div>
+                <div class="footer-part">
+                <h4 class="footer-part-heading">CONTACT</h4>
+                  <div id="location">
+                    <img id="map-icon" src="Images/map.png" alt="Image not found">
+                    <span>2548 Broaddus Maple Court, Madisonville KY 4783, USA.</span>
+                  </div>
+                  <div id="contact">
+                    <img id="contact-icon" src="Images/contact.png" alt="Image not found">
+                    <span>+00 9876543210</span>
+                  </div>
+                  <div id="email">
+                    <img id="email-icon" src="Images/email.png" alt="Image not found">
+                    <span>example@email.com</span>
+                  </div>
+                </div>
+                <hr>
+                <div id="copyright">
+                    <span>Copyright &copy; &pound; 2024 Masterkart Pvt. Ltd.</span>
+                    <img src="Images/payment.png" alt="Image not found">
+                </div>
+    </footer>
+    
+</body>
+<script>
+  const toggleButton = document.getElementById("mobileMenuToggle");
+  const slideMenu = document.getElementById("mobileSlideMenu");
+
+  toggleButton.addEventListener("click", () => {
+    slideMenu.style.display = (slideMenu.style.display === "block") ? "none" : "block";
+  });
+</script>
+</html>

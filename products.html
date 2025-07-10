@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/products.css">
+</head>
+<body>
+    <header id="header">
+  <div class="header-container">
+
+    <div id="header-top">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="../project/Images/logo.png" alt="Image not found">
+      </div>
+
+      <!-- Search -->
+      <div class="search-section">
+        <select>
+          <option selected>Category</option>
+          <option>Fast Food</option>
+          <option>Dairy Products</option>
+        </select>
+        <input type="text" placeholder="Search Products..." />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <!-- Icons -->
+      <div class="icon-section">
+        <div class="icon-box">
+          <i class="fa-regular fa-user"></i>
+          <span>Account</span>
+          <strong>LOGIN</strong>
+        </div>
+        <div class="icon-box">
+          <i class="fa-regular fa-heart"></i>
+          <span>Wishlist</span>
+          <strong>3–ITEMS</strong>
+        </div>
+        <div class="icon-box">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>Cart</span>
+          <strong>3–ITEMS</strong>
+        </div>
+      </div>
+    </div>
+
+    <div id="header-bottom">
+      <div class="menu-icon">
+        <i class="fas fa-th-large"></i>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="location">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>PATNA, IN</span>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+
+  </div>
+</header>
+
+<!-- MOBILE HEADER (FOR SCREEN < 1000px) -->
+<div class="mobile-header">
+  <div class="mobile-top">
+    <i class="fas fa-th-large"></i>
+    <div class="mobile-icons">
+      <div class="icon"><i class="fas fa-user"></i></div>
+      <div class="icon badge"><i class="fas fa-heart"></i><span>3</span></div>
+      <div class="icon badge"><i class="fas fa-shopping-bag"></i><span>3</span></div>
+    </div>
+  </div>
+
+  <div class="mobile-bottom">
+    <img src="../project/Images/logo.png" class="mobile-logo" alt="Logo">
+    <i class="fas fa-bars" id="mobileMenuToggle"></i>
+  </div>
+</div>
+
+<!-- Mobile Slide Menu -->
+<div class="mobile-slide-menu" id="mobileSlideMenu">
+  <div class="mobile-search">
+    <input type="text" placeholder="Search Products..." />
+    <i class="fas fa-search"></i>
+  </div>
+  <nav class="mobile-nav-links">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</div>
+
+    <main>
+
+          <section class="page-header">
+            <div class="page-title">
+                <h3>Product Page</h3>
+            </div>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>&gt;</span>
+                <span class="current">Product Page</span>
+            </div>
+        </section>
+        <!-- category section start -->
+        <section id="categories">
+            <div class="category">
+                <img src="Images/spaice.jpg" alt="Image not found">
+                <h5>SPICE</h5>
+                <p>50 Items</p>
+            </div>
+            <div class="category">
+                <img src="Images/eggs.jpg" alt="Image not found">
+                <h5>EGGS</h5>
+                <p>50 Items</p>
+            </div>
+            <div class="category">
+                <img src="Images/juice.png" alt="Image not found">
+                <h5>JUICE</h5>
+                <p>50 Items</p>
+            </div>
+            <div class="category">
+                <img src="Images/dairy.webp" alt="Image not found">
+                <h5>MILK</h5>
+                <p>50 Items</p>
+            </div>
+            <div class="category">
+                <img src="Images/fastfood.png" alt="Image not found">
+                <h5>FASTFOOD</h5>
+                <p>50 Items</p>
+            </div>
+            <div class="category">
+                <img src="Images/fruits.png" alt="Image not found">
+                <h5>FRUITS</h5>
+                <p>50 Items</p>
+            </div>
+        </section>
+ <!-- category section end -->
+
+  <!-- banner2 section start -->
+         <section id="banner2">
+            <div class="banner2-banner1">
+                <!-- <span>70% off</span> -->
+                <h3>SNACK & SPICES</h3>
+                <h5>The flavor of something special</h5>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="banner2-banner2">
+                <!-- <span>50% off</span> -->
+                <h3>FRUITS & VEGGIES</h3>
+                <h5>A Healthy Meal For Every One</h5>
+                <button>SHOP NOW</button>
+            </div>
+         </section>
+    <!-- banner2 section end -->
+
+     <!--  new product section start-->
+        <section id="new-products">
+            <!-- <div id="new-products-heading">
+                <h3>New <span>Products</span></h3>
+            </div> -->
+            <div class="product-box">
+                <img src="Images/11_1.jpg" alt="Image not found">
+                <h5>VEGITABLES</h5>
+                <h6>Tomato-Hybrid</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/12_1.jpg" alt="Image not found">
+                <h5>TUBER ROOT</h5>
+                <h6>Potato</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/13_1.jpg" alt="Image not found">
+                <h5>TUBER ROOT</h5>
+                <h6>Onion-Hybrid</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/14_1.jpg" alt="Image not found">
+                <h5>VEGITABLES</h5>
+                <h6>Coriander Bunch</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/15_1.jpg" alt="Image not found">
+                <h5>VEGITABLES</h5>
+                <h6>Capsicum-Red</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/16_1.jpg" alt="Image not found">
+                <h5>VEGITABLES</h5>
+                <h6>Sweet Corn</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/17_1.jpg" alt="Image not found">
+                <h5>TUBER ROOT</h5>
+                <h6>Ginger-Organic</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/18_1.jpg" alt="Image not found">
+                <h5>VEGITABLES</h5> 
+                <h6>Lemon-Seedless</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>              
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/20_1.jpg" alt="Image not found">
+                <h5>VEGITABLES</h5> 
+                <h6>Lemon-Seedless</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>              
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/11_1.jpg" alt="Image not found">
+                <h5>VEGITABLES</h5>
+                <h6>Tomato-Hybrid</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/12_1.jpg" alt="Image not found">
+                <h5>TUBER ROOT</h5>
+                <h6>Potato</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/13_1.jpg" alt="Image not found">
+                <h5>TUBER ROOT</h5>
+                <h6>Onion-Hybrid</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/14_1.jpg" alt="Image not found">
+                <h5>VEGITABLES</h5>
+                <h6>Coriander Bunch</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/15_1.jpg" alt="Image not found">
+                <h5>VEGITABLES</h5>
+                <h6>Capsicum-Red</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/16_1.jpg" alt="Image not found">
+                <h5>VEGITABLES</h5>
+                <h6>Sweet Corn</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/17_1.jpg" alt="Image not found">
+                <h5>TUBER ROOT</h5>
+                <h6>Ginger-Organic</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/18_1.jpg" alt="Image not found">
+                <h5>VEGITABLES</h5> 
+                <h6>Lemon-Seedless</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>              
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/20_1.jpg" alt="Image not found">
+                <h5>VEGITABLES</h5> 
+                <h6>Lemon-Seedless</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>              
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/18_1.jpg" alt="Image not found">
+                <h5>VEGITABLES</h5> 
+                <h6>Lemon-Seedless</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>              
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+            <div class="product-box">
+                <img src="Images/20_1.jpg" alt="Image not found">
+                <h5>VEGITABLES</h5> 
+                <h6>Lemon-Seedless</h6>
+                <p>$5.00 &nbsp;<strike>$10.00</strike></p>              
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+            </div>
+        </section>
+        <!--  new product section end-->
+    </main>
+     <footer id="footer">
+                <div class="footer-part">
+                    <img id="footer-logo" src="Images/footer-logo.png" alt="Image not found">
+                    <h3>Masterkart is the biggest market of grocery products. Get your daily needs from our store.</h3>
+                    <div id="download-on-images">
+                        <img src="Images/android.png" alt="Image not found">
+                        <img src="Images/apple.png" alt="Image not found">
+                    </div>
+                </div>
+                <div class="footer-part">
+                    <h4 class="footer-part-heading">CATEGORY</h4>
+                    <ul type="none">
+                        <li>Dairy & Milk</li>
+                        <li>Snack & Spice</li>
+                        <li>Fast Food</li>
+                        <li>Juice & Drinks</li>
+                        <li>Bakery</li>
+                        <li>Seafood</li>
+                    </ul>
+                </div>
+                <div class="footer-part">
+                    <h4 class="footer-part-heading">COMPANY</h4>
+                    <ul type="none">
+                        <li>About us</li>
+                        <li>Delivery</li>
+                        <li>Legal Notice</li>
+                        <li>Terms & conditions</li>
+                        <li>Secure payment</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+                <div class="footer-part">
+                    <h4 class="footer-part-heading">ACCOUNT</h4>
+                    <ul type="none">
+                        <li>Sign In</li>
+                        <li>View Cart</li>
+                        <li>Return Policy</li>
+                        <li>Become a Vendor</li>
+                        <li>Affiliate Program</li>
+                        <li>Payments</li>
+                    </ul>
+                </div>
+                <div class="footer-part">
+                <h4 class="footer-part-heading">CONTACT</h4>
+                  <div id="location">
+                    <img id="map-icon" src="Images/map.png" alt="Image not found">
+                    <span>2548 Broaddus Maple Court, Madisonville KY 4783, USA.</span>
+                  </div>
+                  <div id="contact">
+                    <img id="contact-icon" src="Images/contact.png" alt="Image not found">
+                    <span>+00 9876543210</span>
+                  </div>
+                  <div id="email">
+                    <img id="email-icon" src="Images/email.png" alt="Image not found">
+                    <span>example@email.com</span>
+                  </div>
+                </div>
+                <hr>
+                <div id="copyright">
+                    <span>Copyright &copy; &pound; 2024 Masterkart Pvt. Ltd.</span>
+                    <img src="Images/payment.png" alt="Image not found">
+                </div>
+    </footer>
+</body>
+<script>
+  const toggleButton = document.getElementById("mobileMenuToggle");
+  const slideMenu = document.getElementById("mobileSlideMenu");
+
+  toggleButton.addEventListener("click", () => {
+    slideMenu.style.display = (slideMenu.style.display === "block") ? "none" : "block";
+  });
+</script>
+</html>
